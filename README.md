@@ -9,8 +9,22 @@ You can get a nuget package for this here: https://drive.google.com/open?id=1QOZ
 # How to use
 
 Set a system environment variable called WEBCOMPILER_WORKING_DIRECTORY.  Point it at a folder your build system will have permission to write to.
+
+Windows 10 and Windows 8 instructions for setting the variable.  In Search, search for and then select: System (Control Panel)
+Click the Advanced system settings link.  Click Environment Variables. In the section System Variables, find the PATH environment variable and select it. Click Edit. If the PATH environment variable does not exist, click New.
+In the Edit System Variable (or New System Variable) window, specify the value of the PATH environment variable. Click OK. Close all remaining windows by clicking OK.
+
 If Visual Studio is already running when you set the variable, you will need to restart Visual Studio.
 On a build server you may have to reboot the server so it picks up the changes.
+
+I created it at C:\Program Files\WebCompiler and gave Everyone modify permissions
+
+# Building the Project Yourself
+
+Run WebCompiler\build\build.cmd
+Build with Visual Studio  2017
+Doesn't look like Mads has checked in a way to create the .nupkg.  I just grabbed the latest nupkg off nuget, renamed it with the new version.  Then I renamed it to a zip and copied the binaries into it and modified BuildWebCompiler.nuspec with the new version.
+
 
 ## Web Compiler
 
