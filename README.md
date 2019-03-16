@@ -17,7 +17,7 @@ In the Edit System Variable (or New System Variable) window, specify the value o
 If Visual Studio is already running when you set the variable, you will need to restart Visual Studio.
 On a build server you may have to reboot the server so it picks up the changes.
 
-I created it at C:\Program Files\WebCompiler and gave Everyone modify permissions
+I created a folder at C:\Program Files\WebCompiler and gave Everyone modify permissions
 
 # Building the Project Yourself
 
