@@ -1,3 +1,7 @@
+# Differences in this fork
+
+This is the same as madskritensen's web compiler but includes this pull request: https://github.com/madskristensen/WebCompiler/pull/369/files
+
 ## Web Compiler
 
 A Visual Studio extension that compiles LESS, Sass Stylus, JSX, ES6 and CoffeeScript
