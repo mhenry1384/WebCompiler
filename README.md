@@ -21,8 +21,7 @@ I created a folder at C:\Program Files\WebCompiler and gave Everyone modify perm
 
 # Building the Project Yourself
 
-Run WebCompiler\build\build.cmd
-Build with Visual Studio  2017
+Run WebCompiler\build\build.cmd then Build with Visual Studio  2017.
 Doesn't look like Mads has checked in a way to create the .nupkg.  I just grabbed the latest nupkg off nuget, renamed it with the new version.  Then I renamed it to a zip and copied the binaries into it and modified BuildWebCompiler.nuspec with the new version.
 
 
