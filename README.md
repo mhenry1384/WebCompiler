@@ -4,7 +4,7 @@ This is the same as madskritensen's web compiler but includes this pull request:
 
 # Releases
 
-You can get a nuget package for this here: https://drive.google.com/open?id=1QOZb0OVIgBXpH9lmj7k_Q49rPmbc9XWj  Put it on your own NuGet server and install it.  You may have to modify your .csproj file to point to it when you uninstall the old webcompiler and switch to this one, for some reason I can't be bothered to look into.
+You can get a nuget package for this here: https://drive.google.com/open?id=1QOZb0OVIgBXpH9lmj7k_Q49rPmbc9XWj  Put it on your own NuGet server and install it.  You may have to modify your .csproj file to point to it when you uninstall the old webcompiler and switch to this one, for some reason I can't be bothered to look into.  Really, it's easier to just modify the packages.config and .csproj by hand.
 
 # How to use
 
