@@ -1,6 +1,7 @@
 # Differences in this fork
 
 This is the same as madskritensen's web compiler but includes this pull request: https://github.com/madskristensen/WebCompiler/pull/369/files
+This lets you set the location of the folder so the webcompiler doesn't need to be recreated every time, which can significantly speed up builds.
 
 # Releases
 
